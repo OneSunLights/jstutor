@@ -12,7 +12,7 @@ function counter(from, to){
 		}else{
 			number++;
 		}
-	}, 100);
+	}, 1500);
 
 }
 // counter(0,29);
