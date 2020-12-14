@@ -49,11 +49,11 @@ const obj = {
 	b:1,
 	// Функция сложения
 	sum(){
-		console.log(this.a+this.b+` - сумма чисел ${this.a} и ${this.b}`);
+		console.log(`${this.a+this.b} - сумма чисел ${this.a} и ${this.b}`);
 	},
 	// Функция умножения
 	mul(){
-		console.log(this.a*this.b+` - произведение ${this.a} и ${this.b}`);
+		console.log(`${this.a*this.b} - произведение ${this.a} и ${this.b}`);
 	},
 	// Фукнция изменения внутренних переменных
 	write(a,b){
