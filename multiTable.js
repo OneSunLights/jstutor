@@ -17,4 +17,4 @@ const tableMulti = (width, height) => {
 	document.write("</table>");	
 }
 // Вызываем функцию и задаём ширину и высоту таблицы умножения
-tableMulti(9,29);
+tableMulti(50,50);

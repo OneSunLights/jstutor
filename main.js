@@ -34,7 +34,7 @@ const request = (fc) => {
 }
 // Стрелочная функция
 const engine = (data) => {
-	console.log("Engine", data);
+	console.log("Engine", data.id);
 }
 // request(engine);
 
